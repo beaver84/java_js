@@ -21,3 +21,4 @@ public class Exercise6_20 {
         System.out.println(java.util.Arrays.toString(result));
     }
 }
+
