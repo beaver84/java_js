@@ -25,7 +25,6 @@ class Buyer {
     void buy(Product2 p) {
 
         if(money < p.price) { // 물건의 가격이 가진 돈 보다 큰 경우
-            return;
         } else {
             add(p);
             money -= p.price;
