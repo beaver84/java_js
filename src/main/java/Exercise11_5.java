@@ -28,7 +28,7 @@ class Student implements Comparable {
     public int compareTo(Object o) {
         if(o instanceof Student) {
             Student tmp = (Student)o;
-            return name.compareTo(tmp.name); // String compareTo() 클래스의 를 호출
+            return name.compareTo(tmp.name); // String 클래스의 compareTo()를 호출
         } else {
             return -1;
         }
