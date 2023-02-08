@@ -1,7 +1,3 @@
-import com.sun.xml.internal.ws.util.StringUtils;
-
-import java.util.Objects;
-
 class Exercise9_6 {
     public static String fillZero(String src, int length) {
 /* (1) fillZero메서드를 작성하시오.
