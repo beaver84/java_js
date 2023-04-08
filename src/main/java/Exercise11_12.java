@@ -73,7 +73,7 @@ class SutdaDeck11_12
             result = (Integer) jokbo.get("" + c1.num + c2.num);
 
             if (result == null) {
-                result = new Integer((c1.num + c2.num) % 10 + 1000);
+                result = Integer.valueOf((c1.num + c2.num) % 10 + 1000);
             }
         }
 
