@@ -1,4 +1,4 @@
-﻿package awt_exercise;
+package awt_exercise;
 
 import java.io.*;
 import java.util.*;
@@ -14,7 +14,7 @@ class Exercise13_6 extends Frame {
     Button btnPrevMon = new Button("◀");
     Button btnNextMon = new Button("▶");
     Label lblYearMon = new Label();
-    Button[] btnArr = new Button[42];
+    Button[] btnArr = new Button[210];
     Calendar curMon = Calendar.getInstance();
 
     Exercise13_6(String title) {
@@ -24,7 +24,7 @@ class Exercise13_6 extends Frame {
         pUp.add(btnPrevMon);
         pUp.add(lblYearMon);
         pUp.add(btnNextMon);
-        pDate.setLayout(new GridLayout(6,7));
+        pDate.setLayout(new GridLayout(30,35));
         for(int i=0; i < btnArr.length;i++) {
             btnArr[i] = new Button("");
             pDate.add(btnArr[i]);
@@ -41,7 +41,7 @@ class Exercise13_6 extends Frame {
         });
         add(pUp,"North");
         add(pDate,"Center");
-        setBounds(200,200,500,300);
+        setBounds(1000,1000,2500,1500);
         setDays(curMon);
         setVisible(true);
     } // MyScheduler
