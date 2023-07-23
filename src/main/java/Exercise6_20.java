@@ -1,4 +1,4 @@
-public class NumberShuffling {
+public class Exercise6_20 {
 
     static int[] shuffle(int[] arr) {
         int i = 0;

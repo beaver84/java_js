@@ -41,7 +41,7 @@ class MyTv{
     }
 }
 
-public class TvChannel {
+class TvChannel {
     public static void main(String[] args) {
         MyTv t = new MyTv();
 

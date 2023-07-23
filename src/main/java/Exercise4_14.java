@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Excercise4_14 {
+class Exercise4_14 {
     public static void main(String[] args) {
         int answer = (int) (Math.random() * 100) + 1;
         System.out.println(answer);
