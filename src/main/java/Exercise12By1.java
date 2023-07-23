@@ -1,4 +1,4 @@
-public class Exercise12_1 {
+public class Exercise12By1 {
     public static void main(String args[]) {
         Thread th1 = new Thread(new Thread1());
 

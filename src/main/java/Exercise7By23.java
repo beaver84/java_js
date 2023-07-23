@@ -1,4 +1,4 @@
-public class Exercise7_23 {
+public class Exercise7By23 {
 
     static double sumArea(Shape[] arr) {
         if(arr[0] instanceof Circle){

@@ -1,4 +1,4 @@
-public class Exercise9_1 {
+public class Exercise9By1 {
     public static void main(String[] args) {
         SutdaCard2 c1 = new SutdaCard2(3, true);
         SutdaCard2 c2 = new SutdaCard2(3, true);
