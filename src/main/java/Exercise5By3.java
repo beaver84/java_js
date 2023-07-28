@@ -1,7 +1,5 @@
-class Exercise5By3
-{
-    public static void main(String[] args)
-    {
+class Exercise5By3 {
+    public static void main(String[] args) {
         int[] arr = {10, 20, 30, 40, 50};
         int sum = 0;
 
@@ -9,6 +7,6 @@ class Exercise5By3
             sum += arr[i];
         }
 
-        System.out.println("sum="+sum);
+        System.out.println("sum=" + sum);
     }
 }
