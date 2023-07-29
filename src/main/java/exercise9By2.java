@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-class Exercise9_2 {
+class Exercise9By2 {
     public static void main(String[] args) {
         Point3D p1 = new Point3D(1,2,3);
         Point3D p2 = new Point3D(1,2,3);
