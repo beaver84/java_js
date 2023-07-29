@@ -19,7 +19,11 @@ class Exercise5_8 {
 (2) 알맞은 코드를 넣어 완성하시오.
 */
             System.out.print(counter[i]);
-            System.out.print("*");
+
+            for(int j=0; j < counter[i];j++) {
+                System.out.print("*"); // counter[i]의 값 만큼 ‘*’을 찍는다.
+            }
+
             System.out.println();
         }
     }
