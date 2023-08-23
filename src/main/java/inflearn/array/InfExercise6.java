@@ -3,6 +3,15 @@ package inflearn.array;
 import java.util.Scanner;
 
 public class InfExercise6 {
+
+    public static int isPrime(int inputNum) {
+        return inputNum;
+    }
+
+    public static int[] toBackward(int[] inputArray) {
+        return inputArray;
+    }
+
     public static void main(String[] args){
         Scanner in=new Scanner(System.in);
         int N = in.nextInt();
@@ -12,10 +21,13 @@ public class InfExercise6 {
             intInputArray[i] += in.nextInt();
         }
 
-        System.out.println(N);
+        toBackward(intInputArray);
+
+
+        System.out.println(N);π
 
         for (int i : intInputArray) {
-            System.out.print(i + " ");
+            System.out.print(isPrime(i) + " ");
         }
         return ;
     }
