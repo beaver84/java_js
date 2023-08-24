@@ -4,23 +4,34 @@ import java.util.Scanner;
 
 
 public class InfExercise7 {
-    public int solution(int n, String str) {
+    public int solution(int n, int[] arr) {
         int answer = 0;
-        String[] temp = str.split(" ");
-        for (int i = 0; i < temp.length; i++) {
-            answer += Integer.parseInt(temp[i]);
+        int tmp = 1;
+        if (arr[0] == 1) {
+            answer += tmp;
+        }
+        for (int i = 1;  i < n; i++){
+            if(arr[i] == 1 && arr[i] == arr[i-1]){
+                tmp ++;
+                answer += tmp;
+            } else if(arr[i] == 1 && arr[i] != arr[i - 1]) {
+                tmp = 1;
+                answer += tmp;
+            } else {
+                tmp = 1;
+            }
         }
         return answer;
     }
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
         InfExercise7 T = new InfExercise7();
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        sc.nextLine();
-        String str = sc.nextLine();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++)
+            arr[i] = kb.nextInt();
 
-        System.out.println(T.solution(n, str));
+        System.out.println(T.solution(n, arr));
     }
 }
