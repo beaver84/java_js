@@ -3,7 +3,7 @@ package inflearn.array;
 import java.util.Scanner;
 
 
-public class InfExercise7 {
+public class InfExercise2By7 {
     public int solution(int n, int[] arr) {
         int answer = 0;
         int tmp = 1;
@@ -25,7 +25,7 @@ public class InfExercise7 {
     }
 
     public static void main(String[] args) {
-        InfExercise7 T = new InfExercise7();
+        InfExercise2By7 T = new InfExercise2By7();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[] arr = new int[n];

@@ -3,7 +3,7 @@ package inflearn.array;
 import java.util.Scanner;
 
 
-public class InfExercise6 {
+public class InfExercise2By6 {
     public boolean isPrime(int num) {
         if (num == 1) return false;
         for (int i = 2; i < num; i++) {
@@ -28,7 +28,7 @@ public class InfExercise6 {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-        InfExercise6 T = new InfExercise6();
+        InfExercise2By6 T = new InfExercise2By6();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         sc.nextLine();
