@@ -6,6 +6,12 @@ import java.util.Scanner;
 public class InfExercise1By4 {
     public static ArrayList<String> solution(int n, String[] str){
         ArrayList<String> answer= new ArrayList<>();
+        for (String s : str) {
+            StringBuilder sb = new StringBuilder(s);
+            sb.reverse();
+            answer.add(sb.toString());
+        }
+
         return answer;
     }
 
