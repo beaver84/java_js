@@ -1,0 +1,26 @@
+package inflearn.array;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+public class InfExercise2By1 {
+
+    public ArrayList<Integer> solution(int n, int[] arr) {
+        ArrayList<Integer> answer = new ArrayList<>();
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        InfExercise2By1 T = new InfExercise2By1();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = kb.nextInt();
+        }
+        for (int x : T.solution(n, arr)) {
+            System.out.print(x+" ");
+        }
+    }
+}
