@@ -1,18 +1,18 @@
 package inflearn.array;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 
 public class InfExercise2By1 {
 
-    public ArrayList<Integer> solution(int n, int[] arr) {
-        ArrayList<Integer> answer = new ArrayList<>();
-        answer.add(arr[0]);
+    public int solution(int n, int[] arr) {
+        int answer=1, max=arr[0];
         for (int i = 1; i < n; i++) {
-            if(arr[i]>arr[i-1]) answer.add(arr[i]);
+            if(arr[i]>max){
+                answer++;
+                max = arr[i];
+            }
         }
-
         return answer;
     }
 
@@ -24,8 +24,6 @@ public class InfExercise2By1 {
         for (int i = 0; i < n; i++) {
             arr[i] = kb.nextInt();
         }
-        for (int x : T.solution(n, arr)) {
-            System.out.print(x+" ");
-        }
+        System.out.print( T.solution(n, arr));
     }
 }
