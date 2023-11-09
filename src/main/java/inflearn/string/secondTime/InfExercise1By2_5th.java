@@ -1,6 +1,5 @@
 package inflearn.string.secondTime;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class InfExercise1By2_5th {
