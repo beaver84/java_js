@@ -1,4 +1,4 @@
-package kyh_first;
+package java_start;
 
 import java.util.Scanner;
 

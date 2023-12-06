@@ -1,4 +1,4 @@
-package kyh_first;
+package java_start;
 
 public class array_8_1 {
     public static void main(String[] args) {
