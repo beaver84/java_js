@@ -10,7 +10,13 @@ public class MovieReviewMain {
         aboutTime.title = "어바웃 타임";
         aboutTime.review = "인생 시간 영화!";
 
-        System.out.println("영화 제목: " + inception.title + ", 리뷰: " + inception.review);
-        System.out.println("영화 제목: " + aboutTime.title + ", 리뷰: " + aboutTime.review);
+        MovieReview[] movieReviews = new MovieReview[2];
+        movieReviews[0] = inception;
+        movieReviews[1] = aboutTime;
+
+        for (MovieReview movieReview : movieReviews) {
+            System.out.println("영화 제목: " + movieReview.title + ", 리뷰: " + movieReview.review);
+        }
+
     }
 }
